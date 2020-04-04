@@ -17,3 +17,7 @@ D:\Users\guaancalel\Documents\PROYECTOS\visual studio 2015\Projects\AccesoDescon
 D:\Users\guaancalel\Documents\PROYECTOS\visual studio 2015\Projects\AccesoDesconectadoDatos\AccesoDesconectadoDatos\bin\Debug\Ubiety.Dns.Core.dll
 D:\Users\guaancalel\Documents\PROYECTOS\visual studio 2015\Projects\AccesoDesconectadoDatos\AccesoDesconectadoDatos\bin\Debug\Renci.SshNet.dll
 D:\Users\guaancalel\Documents\PROYECTOS\visual studio 2015\Projects\AccesoDesconectadoDatos\AccesoDesconectadoDatos\bin\Debug\MySql.Data.xml
+D:\Users\guaancalel\Documents\PROYECTOS\visual_studio_2015\Projects\AccesoDesconectadoDatos\AccesoDesconectadoDatos\bin\Debug\AccesoDesconectadoDatos.exe.config
+D:\Users\guaancalel\Documents\PROYECTOS\visual_studio_2015\Projects\AccesoDesconectadoDatos\AccesoDesconectadoDatos\obj\Debug\AccesoDesconectadoDatos.exe
+D:\Users\guaancalel\Documents\PROYECTOS\visual_studio_2015\Projects\AccesoDesconectadoDatos\AccesoDesconectadoDatos\obj\Debug\AccesoDesconectadoDatos.xml
+D:\Users\guaancalel\Documents\PROYECTOS\visual_studio_2015\Projects\AccesoDesconectadoDatos\AccesoDesconectadoDatos\obj\Debug\AccesoDesconectadoDatos.pdb
