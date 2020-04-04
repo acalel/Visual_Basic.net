@@ -37,8 +37,17 @@ Partial Class Ingreso_Condominio
         Me.TextBox4 = New System.Windows.Forms.TextBox()
         Me.TextBox5 = New System.Windows.Forms.TextBox()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.Label6 = New System.Windows.Forms.Label()
+        Me.TextBox6 = New System.Windows.Forms.TextBox()
+        Me.btnagrega = New System.Windows.Forms.Button()
+        Me.TextBox7 = New System.Windows.Forms.TextBox()
+        Me.Label7 = New System.Windows.Forms.Label()
+        Me.limites = New System.Windows.Forms.DataGridView()
+        Me.punto = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.nombre = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Panel1.SuspendLayout()
         Me.GroupBox1.SuspendLayout()
+        CType(Me.limites, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Label1
@@ -175,11 +184,77 @@ Partial Class Ingreso_Condominio
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Datos Condominio"
         '
+        'Label6
+        '
+        Me.Label6.AutoSize = True
+        Me.Label6.Location = New System.Drawing.Point(419, 12)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(114, 13)
+        Me.Label6.TabIndex = 13
+        Me.Label6.Text = "Ingrese Punto Cardinal"
+        '
+        'TextBox6
+        '
+        Me.TextBox6.Location = New System.Drawing.Point(539, 9)
+        Me.TextBox6.Name = "TextBox6"
+        Me.TextBox6.Size = New System.Drawing.Size(100, 20)
+        Me.TextBox6.TabIndex = 14
+        '
+        'btnagrega
+        '
+        Me.btnagrega.Location = New System.Drawing.Point(645, 12)
+        Me.btnagrega.Name = "btnagrega"
+        Me.btnagrega.Size = New System.Drawing.Size(75, 23)
+        Me.btnagrega.TabIndex = 15
+        Me.btnagrega.Text = "Agregar"
+        Me.btnagrega.UseVisualStyleBackColor = True
+        '
+        'TextBox7
+        '
+        Me.TextBox7.Location = New System.Drawing.Point(539, 38)
+        Me.TextBox7.Name = "TextBox7"
+        Me.TextBox7.Size = New System.Drawing.Size(100, 20)
+        Me.TextBox7.TabIndex = 17
+        '
+        'Label7
+        '
+        Me.Label7.AutoSize = True
+        Me.Label7.Location = New System.Drawing.Point(419, 38)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(72, 13)
+        Me.Label7.TabIndex = 16
+        Me.Label7.Text = "Ingrese Limite"
+        '
+        'limites
+        '
+        Me.limites.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.limites.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.punto, Me.nombre})
+        Me.limites.Location = New System.Drawing.Point(422, 92)
+        Me.limites.Name = "limites"
+        Me.limites.Size = New System.Drawing.Size(240, 150)
+        Me.limites.TabIndex = 18
+        '
+        'punto
+        '
+        Me.punto.HeaderText = "punto"
+        Me.punto.Name = "punto"
+        '
+        'nombre
+        '
+        Me.nombre.HeaderText = "nombre"
+        Me.nombre.Name = "nombre"
+        '
         'Ingreso_Condominio
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(660, 321)
+        Me.ClientSize = New System.Drawing.Size(731, 340)
+        Me.Controls.Add(Me.limites)
+        Me.Controls.Add(Me.TextBox7)
+        Me.Controls.Add(Me.Label7)
+        Me.Controls.Add(Me.btnagrega)
+        Me.Controls.Add(Me.TextBox6)
+        Me.Controls.Add(Me.Label6)
         Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.TextBox5)
         Me.Controls.Add(Me.TextBox4)
@@ -192,6 +267,7 @@ Partial Class Ingreso_Condominio
         Me.Panel1.ResumeLayout(False)
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
+        CType(Me.limites, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -212,4 +288,12 @@ Partial Class Ingreso_Condominio
     Friend WithEvents TextBox4 As TextBox
     Friend WithEvents TextBox5 As TextBox
     Friend WithEvents GroupBox1 As GroupBox
+    Friend WithEvents Label6 As Label
+    Friend WithEvents TextBox6 As TextBox
+    Friend WithEvents btnagrega As Button
+    Friend WithEvents TextBox7 As TextBox
+    Friend WithEvents Label7 As Label
+    Friend WithEvents limites As DataGridView
+    Friend WithEvents punto As DataGridViewTextBoxColumn
+    Friend WithEvents nombre As DataGridViewTextBoxColumn
 End Class
